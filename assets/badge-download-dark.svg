@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212" height="30" role="img" aria-label="下载 PickAbc · Windows 10/11 · v1.0.0">
+  <title>下载 PickAbc · Windows 10/11 · v1.0.0</title>
+  <rect width="212" height="30" rx="7" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <path d="M1 7 A6 6 0 0 1 7 1 H60.0 V29 H7 A6 6 0 0 1 1 23 Z" fill="#2f6bff"/>
+  <path d="M15.5 10.0 V17.6 M12.1 14.4 L15.5 17.6 L18.9 14.4" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei UI','Microsoft YaHei',sans-serif" font-size="12" font-weight="600" dominant-baseline="central">
+    <text x="26.0" y="15.0" fill="#ffffff">下载</text>
+    <text x="70.0" y="15.0" fill="#c9d1d9">Windows 10/11 · v1.0.0</text>
+  </g>
+</svg>
