@@ -9,13 +9,14 @@
 
 **English** · [简体中文](README.md)
 
-An always-on-top text panel: save the phrases you use every day, click once to copy.
+An always-on-top text panel: save the phrases you use every day and double-click to copy.
+Tuck it into the screen edge when you don't need it — only a thin strip stays visible.
 
 ![PickAbc](design/pickabc-ui.png)
 
 ## Download and run (Windows 10 / 11)
 
-Grab `PickAbc-1.0.2-win64.zip` from
+Grab `PickAbc-1.0.3-win64.zip` from
 [Releases](https://github.com/joseygo/PickAbc/releases), unzip it, and double-click
 `PickAbc.exe`. No Python, no installer, no internet connection, no third-party dependencies.
 Single file, about 9.5 MB.
@@ -24,17 +25,19 @@ Single file, about 9.5 MB.
 
 | Action | Result |
 |---|---|
-| Click a text | Copy it to the clipboard |
+| Double-click a text | Copy it to the clipboard (a single click does nothing, to avoid misfires) |
 | Drag a text out | Drop it on any input box in any app — it gets pasted there |
 | Drag text in from elsewhere | Drop it anywhere on the panel to open "Add text" pre-filled |
 | Right-click it | Menu: edit |
+| Drag the window to the left edge and let go | The whole panel slides off-screen and only a thin strip marked **P** stays on the left edge; hover the strip to bring it back, move the cursor away for about a second and it hides again |
 | Language menu (top right) | Switch the interface language: English / Deutsch / 简体中文 |
-| Type 111~999 in any app | A confirm bar pops up; press Enter to erase the digits, copy the matching text and paste it (global quick input) |
+| Tap the same digit twice quickly (11~99) in any app | A confirm bar pops up; press Enter to erase the digits, copy the matching text and paste it (global quick input) |
 | ＋ at the bottom right | Add a text |
 | "Delete" inside the editor | Remove that text |
 
-The window stays on top by default. Only one instance runs at a time — if it is already
-open, double-clicking the exe again just brings the existing window to the front.
+The window stays on top and docked to the left edge of the screen, and its bottom edge never
+covers the taskbar. Only one instance runs at a time — if it is already open, double-clicking
+the exe again just brings the existing window to the front.
 
 ## Where your data lives
 
@@ -92,7 +95,7 @@ year). Click **More info** → **Run anyway**.
 ## Copyright & License
 
 PickAbc is **closed-source software**. Only pre-built Windows executables are distributed;
-source distribution and sublicensing are not permitted. This repository is the private
-development repository.
+source distribution and sublicensing are not permitted. This repository publishes the docs and
+prebuilt binaries only — it contains no source code.
 
 © 2026 Josey. All rights reserved.
