@@ -16,10 +16,10 @@ Tuck it into the screen edge when you don't need it — only a thin strip stays 
 
 ## Download and run (Windows 10 / 11)
 
-Grab `PickAbc-1.0.3-win64.zip` from
+Grab `PickAbc-1.0.4-win64.zip` from
 [Releases](https://github.com/joseygo/PickAbc/releases), unzip it, and double-click
 `PickAbc.exe`. No Python, no installer, no internet connection, no third-party dependencies.
-Single file, about 9.5 MB.
+Single file, about 10 MB.
 
 ## How to use
 
@@ -27,12 +27,14 @@ Single file, about 9.5 MB.
 |---|---|
 | Double-click a text | Copy it to the clipboard (a single click does nothing, to avoid misfires) |
 | Drag a text out | Drop it on any input box in any app — it gets pasted there |
-| Drag text in from elsewhere | Drop it anywhere on the panel to open "Add text" pre-filled |
 | Right-click it | Menu: edit |
+| "Hide" icon (top left) | Tuck the whole panel into the left edge in one click, leaving only a thin strip |
 | Drag the window to the left edge and let go | The whole panel slides off-screen and only a thin strip marked **P** stays on the left edge; hover the strip to bring it back, move the cursor away for about a second and it hides again |
-| Language menu (top right) | Switch the interface language: English / Deutsch / 简体中文 |
+| Sort icon (top right) | Reorder the list by how often each text was used (copy, quick input, drag-out), highest first |
+| Gear icon (top right) → settings | Interface language (English / Deutsch / Español / 简体中文) · Launch at Windows startup · Check for updates · Email |
 | Tap the same digit twice quickly (11~99) in any app | A confirm bar pops up; press Enter to erase the digits, copy the matching text and paste it (global quick input) |
 | ＋ at the bottom right | Add a text |
+| ✓ or `Ctrl+S` inside the editor | Save your changes (Enter inserts a newline, it does not save) |
 | "Delete" inside the editor | Remove that text |
 
 The window stays on top and docked to the left edge of the screen, and its bottom edge never
@@ -52,7 +54,10 @@ data will be kept beside the exe instead.
 
 ## Features
 
-- **First run** — ships with 4 example texts; if you delete them all, they are not restored
+- **First run** — ships with 4 example texts and an English interface (switch the language from
+  the gear menu; the choice is remembered); if you delete them all, they are not restored
+- **Launch at startup** — a toggle in the gear menu. Nothing is written to the registry; just
+  delete the exe to uninstall, and Windows startup will no longer report a missing file
 
 ## About iOS
 
