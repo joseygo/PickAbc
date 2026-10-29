@@ -15,7 +15,7 @@
 
 ## 下载即用（Windows 10 / 11）
 
-到 [Releases](https://github.com/joseygo/PickAbc/releases) 下载 `PickAbc-1.0.4-win64.zip`，解压后双击 `PickAbc.exe`。
+到 [Releases](https://github.com/joseygo/PickAbc/releases) 下载 `PickAbc-1.0.5-win64.zip`，解压后双击 `PickAbc.exe`。
 无需安装 Python，无需联网，无第三方依赖，单文件约 10 MB。
 
 ## 怎么用
@@ -48,7 +48,7 @@
 
 ## 功能说明
 
-- **首次启动**：内置 4 条示例文本，界面语言默认 English（可在右上角齿轮里切换，切换后下次启动保持）；用户全部删光后不会自动复原
+- **首次启动**：内置 5 条示例文本，界面语言默认 English（可在右上角齿轮里切换，切换后下次启动保持）；用户全部删光后不会自动复原
 - **开机自启**：开关在右上角齿轮菜单里，不写注册表。直接删除 exe 即可卸载，开机不会再报错
 
 ## 系统要求
