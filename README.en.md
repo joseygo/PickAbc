@@ -16,7 +16,7 @@ Tuck it into the screen edge when you don't need it — only a thin strip stays 
 
 ## Download and run (Windows 10 / 11)
 
-Grab `PickAbc-1.0.4-win64.zip` from
+Grab `PickAbc-1.0.5-win64.zip` from
 [Releases](https://github.com/joseygo/PickAbc/releases), unzip it, and double-click
 `PickAbc.exe`. No Python, no installer, no internet connection, no third-party dependencies.
 Single file, about 10 MB.
@@ -54,19 +54,10 @@ data will be kept beside the exe instead.
 
 ## Features
 
-- **First run** — ships with 4 example texts and an English interface (switch the language from
+- **First run** — ships with 5 example texts and an English interface (switch the language from
   the gear menu; the choice is remembered); if you delete them all, they are not restored
 - **Launch at startup** — a toggle in the gear menu. Nothing is written to the registry; just
   delete the exe to uninstall, and Windows startup will no longer report a missing file
-
-## About iOS
-
-This app is built on Python + Tkinter, a desktop framework, and **cannot be packaged for iOS**:
-iOS does not allow running a Python interpreter and requires native UIKit apps. It will not
-run on iPhone / iPad.
-
-On a phone you can get a similar effect with the built-in **Text Replacement**
-(Settings → General → Keyboard → Text Replacement).
 
 ## Requirements
 
