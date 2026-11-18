@@ -16,7 +16,7 @@ Tuck it into the screen edge when you don't need it — only a thin strip stays 
 
 ## Download and run (Windows 10 / 11)
 
-Grab `PickAbc-1.0.5-win64.zip` from
+Grab `PickAbc-1.0.6-win64.zip` from
 [Releases](https://github.com/joseygo/PickAbc/releases), unzip it, and double-click
 `PickAbc.exe`. No Python, no installer, no internet connection, no third-party dependencies.
 Single file, about 10 MB.
@@ -33,9 +33,11 @@ Single file, about 10 MB.
 | Sort icon (top right) | Reorder the list by how often each text was used (copy, quick input, drag-out), highest first |
 | Gear icon (top right) → settings | Interface language (English / Deutsch / Español / 简体中文) · Launch at Windows startup · Check for updates · Email |
 | Tap the same digit twice quickly (11~99) in any app | A confirm bar pops up; press Enter to erase the digits, copy the matching text and paste it (global quick input) |
+| Type a shortcut trigger word in any app | Give a text 2–10 letters (e.g. `xm`) in the editor. From then on, just typing it in any app fires the paste prompt. If several texts share the same trigger word, a picker lists them — click a row or press its number key (1–9) |
 | ＋ at the bottom right | Add a text |
 | ✓ or `Ctrl+S` inside the editor | Save your changes (Enter inserts a newline, it does not save) |
 | "Delete" inside the editor | Remove that text |
+| Mouse wheel / touchpad two-finger scroll | Scroll the list (fine-grained touchpad scrolling is supported) |
 
 The window stays on top and docked to the left edge of the screen, and its bottom edge never
 covers the taskbar. Only one instance runs at a time — if it is already open, double-clicking
