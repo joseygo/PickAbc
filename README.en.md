@@ -33,7 +33,7 @@ Single file, about 10 MB.
 | Sort icon (top right) | Reorder the list by how often each text was used (copy, quick input, drag-out), highest first |
 | Gear icon (top right) → settings | Interface language (English / Deutsch / Español / 简体中文) · Launch at Windows startup · Check for updates · Email |
 | Tap the same digit twice quickly (11~99) in any app | A confirm bar pops up; press Enter to erase the digits, copy the matching text and paste it (global quick input) |
-| Type a shortcut trigger word in any app | Give a text 2–10 letters (e.g. `xm`) in the editor. From then on, just typing it in any app fires the paste prompt. If several texts share the same trigger word, a picker lists them — click a row or press its number key (1–9) |
+| Type a shortcut trigger word in any app | Give a text 2–10 letters (e.g. xm) in the editor. From then on, just typing it in any app fires the paste prompt. If several texts share the same trigger word, a picker lists them — click a row or press its number key (1–9) |
 | ＋ at the bottom right | Add a text |
 | ✓ or `Ctrl+S` inside the editor | Save your changes (Enter inserts a newline, it does not save) |
 | "Delete" inside the editor | Remove that text |
