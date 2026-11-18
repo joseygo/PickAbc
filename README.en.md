@@ -21,28 +21,6 @@ Grab `PickAbc-1.0.6-win64.zip` from
 `PickAbc.exe`. No Python, no installer, no internet connection, no third-party dependencies.
 Single file, about 10 MB.
 
-## How to use
-
-| Action | Result |
-|---|---|
-| Double-click a text | Copy it to the clipboard (a single click does nothing, to avoid misfires) |
-| Drag a text out | Drop it on any input box in any app — it gets pasted there |
-| Right-click it | Menu: edit |
-| "Hide" icon (top left) | Tuck the whole panel into the left edge in one click, leaving only a thin strip |
-| Drag the window to the left edge and let go | The whole panel slides off-screen and only a thin strip marked **P** stays on the left edge; hover the strip to bring it back, move the cursor away for about a second and it hides again |
-| Sort icon (top right) | Reorder the list by how often each text was used (copy, quick input, drag-out), highest first |
-| Gear icon (top right) → settings | Interface language (English / Deutsch / Español / 简体中文) · Launch at Windows startup · Check for updates · Email |
-| Tap the same digit twice quickly (11~99) in any app | A confirm bar pops up; press Enter to erase the digits, copy the matching text and paste it (global quick input) |
-| Type a shortcut trigger word in any app | Give a text your own 2–10 letter abbreviation in the editor. From then on, just typing it in any app fires the paste prompt. If several texts share the same abbreviation, a picker lists them — click a row or press its number key (1–9) |
-| ＋ at the bottom right | Add a text |
-| ✓ or `Ctrl+S` inside the editor | Save your changes (Enter inserts a newline, it does not save) |
-| "Delete" inside the editor | Remove that text |
-| Mouse wheel / touchpad two-finger scroll | Scroll the list (fine-grained touchpad scrolling is supported) |
-
-The window stays on top and docked to the left edge of the screen, and its bottom edge never
-covers the taskbar. Only one instance runs at a time — if it is already open, double-clicking
-the exe again just brings the existing window to the front.
-
 ## Where your data lives
 
 Your texts are stored in `%APPDATA%\PickAbc`, so updating the app never loses them:
@@ -56,6 +34,7 @@ data will be kept beside the exe instead.
 
 ## Features
 
+- **Always on top** — the window stays on top, docked to the left edge; its bottom edge never covers the taskbar. Single instance: launching again brings the existing window forward
 - **First run** — ships with 5 example texts and an English interface (switch the language from
   the gear menu; the choice is remembered); if you delete them all, they are not restored
 - **Launch at startup** — a toggle in the gear menu. Nothing is written to the registry; just
