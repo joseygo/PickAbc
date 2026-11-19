@@ -13,6 +13,8 @@
 
 ![PickAbc](design/pickabc-ui.png)
 
+https://github.com/user-attachments/assets/7b22e6f6-07fc-4be7-9879-14ff94a39354
+
 ## 下载即用（Windows 10 / 11）
 
 到 [Releases](https://github.com/joseygo/PickAbc/releases) 下载 `PickAbc-1.0.6-win64.zip`，解压后双击 `PickAbc.exe`。
