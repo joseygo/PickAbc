@@ -14,6 +14,8 @@ Tuck it into the screen edge when you don't need it — only a thin strip stays 
 
 ![PickAbc](design/pickabc-ui.png)
 
+https://github.com/user-attachments/assets/7b22e6f6-07fc-4be7-9879-14ff94a39354
+
 ## Download and run (Windows 10 / 11)
 
 Grab `PickAbc-1.0.6-win64.zip` from
